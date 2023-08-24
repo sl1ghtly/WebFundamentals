@@ -1,0 +1,111 @@
+body { background: #4f6367;
+	font-family: Verdana, Arial, sans-serif; 
+	}
+	
+#wrapper { margin: 0 auto;
+	width: 80%;
+	background-color: #7a9e9f;
+	color: #000066;
+	}
+	
+#header { background-color: #b8d8d8;
+	color: #4f6367;
+	font-size: 150%;
+	overflow: auto;
+	}
+
+#logo{ width: 15%;
+	float: left;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-image: url(bistro.png);
+	background-size: contain;
+	min-height: 130px;
+	}
+
+#nav { float: left;
+	width: 15%;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	}
+#nav ul { list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+#nav a { text-decoration: none;
+	padding: 20px;
+	display: block;
+	background-color: #7a9e9f;
+	border-bottom: 1px solid #ffffff;
+	}
+#nav a:link { color: #ffffff; }
+#nav a:visited { color: #9edfe8; }
+#nav a:hover { color: #103e44;
+	background-color: #eef5db;
+	}
+#nav2 { float: right;
+	width: 15%;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	}
+#nav2 ul { list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+#nav2 a { text-decoration: none;
+	padding: 20px;
+	display: block;
+	background-color: #7a9e9f;
+	border-bottom: 1px solid #ffffff;
+	}
+#nav2 a:link { color: #ffffff; }
+#nav2 a:visited { color: #9edfe8; }
+#nav2 a:hover { color: #103e44;
+	background-color: #eef5db;
+	}
+	
+#content{ background-color: #ffffff;
+	color: #000000;
+	padding: 10px 20px;
+	overflow: auto;
+	margin-left: 15%;
+	}
+
+#footer { font-size: 70%;
+	text-align: center;
+	padding: 10px;
+	background-color: #b8d8d8;
+	clear: left;
+	}
+	
+h1 {color: #4f6367;}
+
+h2 { color: #7a9e9f;
+	font-family: Arial, sans-serif;
+	}
+#floatright { float: right;
+	margin: 10px;
+	}
+
+@media only screen and (max-width: 1024px) {
+	#content { margin-left: 0; } 
+	#nav { float: none; width: auto; } 
+	#logo { display: none; }
+	#header { height: 80px; padding: 20px; }
+	body { margin: 0; }
+	#wrapper { width: auto; }
+	#nav li { display: inline-block; padding: 0.5em; }
+	#nav ul { text-align: center; }
+	#nav a { border-style: none; }
+	h1, h2 { font-size: 120%; }
+	p { font-size: 90%; }
+}
+
+@media only screen and (max-width: 768px) {
+	#header { height: 40px; padding: 10px 0 0 0; }
+	h2 { font-size: 90%; }
+	h1 { font-size: 80%; margin: 0; text-align: center; }
+	#nav, #nav ul, #nav li { padding: 0; }
+	#nav li { display: block; }
+	#nav a { display: block; padding: 0.5em; border-bottom: 2px ridge #00005D; }
+}

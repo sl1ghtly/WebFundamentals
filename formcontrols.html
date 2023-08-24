@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+ <title></title>
+ <meta charset="utf-8">
+</head>
+<body>
+<h1>Contact Us</h1>
+<form>
+First Name: <input type="text" name="fname" id="fname" placeholder="Enter your name here"><br><br>
+Last Name: <input type="text" name="lname" id="lname" placeholder="Enter your surname here"><br><br>
+E-mail: <input type="email" name="email" id="email" required="required" placeholder="Enter youremail here"><br><br>
+Comments:<br><textarea name="comments" id="comments" rows="4" cols="40"></textarea><br><br>
+<input type="submit" value="Contact">
+<input type="reset">
+</form>
+
+<button onclick="goBack()">Go Back</button>
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+</body>
+</html>

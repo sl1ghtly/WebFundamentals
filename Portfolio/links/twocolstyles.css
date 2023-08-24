@@ -1,0 +1,32 @@
+body { background: #39443D;
+	}
+
+#container { width: 80%;
+	margin: auto; 
+	}
+
+#header { background: #EAEAEA;
+	padding: 5px;
+	}
+#header h1 { background: #8DA58D;
+	color: #EAEAEA;
+	}
+
+#leftnav { float: left;
+	padding: 7px;
+	width: 150px;
+	height: 250px;
+	}
+#leftnav a { text-decoration: none;
+	color: #000000;
+	}
+#leftnav li { list-style-type: none;
+	}
+
+#content { background: #8DA58D;
+	padding: 10px;
+	}
+
+#footer { background: #EAEAEA;
+	padding: 5px;
+	}
