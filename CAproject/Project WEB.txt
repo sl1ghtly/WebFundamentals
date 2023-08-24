@@ -1,0 +1,62 @@
+Project name and brief background:
+The website will be called "Eryk's Hardware" and will be used for reviews and personal recommendation's on hardware, possibly share people's gaming results with their gaming computers.
+It's a very small fictional company of only 6 people, including Eryk, who take care of it.
+Out of all the people who work there only 3 of the people are in charge of maintain the website.
+The rest of the employees are there to help out with the reviews and articles about hardware, as Eryk personally hasn't had a lot of hardware in his posession.
+
+
+Aims of the website:
+1. To discuss hardware in modern day and age, which will consist of reviews and articles mixed with a little bit of personal opinions about current trends and even past trends in today's day.
+2. To let more users know of what hardware would be worth to buy for the future as hardware always improves within each year that it gets released.
+3. Possibly to have tutorials for users who have never built a Personal Computer before, tips on choosing hardware for computers that won't have any issues when they are together.
+
+
+Target Market:
+The target audience of "Eryk's Hardware" is mainly young adults who have a passion for building computers and possibly teenagers who are getting into building computers because of gaming.
+After all, hardware is what makes a good gaming computer. However, anyone who truly loves computers or computing belongs to the Target Audience of this website.
+
+
+Business Objectives:
+1. Promote the website to a much larger amount of people who are interested in building computers and to build a big community of likeminded users.
+2. Get people to sign up for a monthly newsletter that would give people informations about possible future leaks of hardware like CPUs, GPUs, AMD vs Intel, etc.
+3. An online donate button on a dedicated website from which the funds would be used to ease the expenses of the company. It wouldn't be required to donate but it would be nice of people to.
+
+
+Content:
+Page 1: Home Page
+Main website with the most recent reviews, images and a message of the day. It will also contain links to the recent reviews. There will be a navigation bar to the left of the page that will be used as a menu of sort.
+
+Page 2: Reviews
+This page will hold all the all the hardware reviews: CPUs, GPUs, Motherboards, Storage, Memory, Displays and Overclocking. The most recent reviews will be at the top.
+
+Page 3: Image Gallery
+This website will hold all the images of current setups and hardware used by the employees. Also includes images of recommended hardware and gives credit to where these images were found.
+
+Page 4: Favourites
+This page will be used to show Eryk's and his employees current personal favourite hardware and/or what they are aiming to purchase in the future. The old ones will stay there too as legacy posts but the most recent ones will stay on top.
+
+Page 5: The Team
+This website will be used to show all the current employees hired by "Eryk's Hardware", give a short info about their background, what they like to do and a picture to accompany this.
+
+Page 6: Donate
+This will be used as a special website to receive donations from users viewing the website. Donations are not required but they will be welcome as costs for hosting a website are pretty high and it would ease the strain on the company.
+Donations will be kept anonymous due to privacy reasons.
+
+
+Page Layout/CRAP Principles:
+Contrast:
+The colour scheme of the website will be various shades of light green and dark green for the background and a black sans-serif font style excluding the text on the links, which will be an unordered list with white font and a green background.
+When a mouse will hoover over the link, the colours on the link will invert. Links will be bold with no text decorations and unordered lists will not have bullet points.
+
+Repetition:
+CSS is what will be used to maintain the repetition of the website as well as the styles. The header will contain the logo of the company on each website.
+Every footer will contain social media links of the company and copyright text. A navigation bar will be used as a sidebar for the website.
+
+Alignment:
+Both, the company's logo and the text under the logo will be centered while the rest of the webpages will be aligned to the left.
+The navigation bar will also be aligned to the left making the page "Reviews" and "Donate" a two column layout.
+The "Home Page", "Image Gallery", "Favourites", "The Team" will be a three column layout to keep the website more clean as there will be some images added.
+
+Proximity:
+All the unordered list links will be grouped and they will be padded out equally. The images on the "Image Gallery" will be spaced out by columns and some padding so they are not too close to each other.
+Padding will be used for each website to space out text. All of the social media links of the company will be grouped together and spaced out appropirately.
