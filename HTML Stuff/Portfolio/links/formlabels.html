@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<style>
+h1{color: #ea0000;}
+form {background-color:#eaeaea;
+ font-family: Arial;
+ width: 40%;
+ border-radius: 5px;
+ padding: 10px;
+ }
+label {float:left;
+ width: 25%;
+ clear: left;
+ text-align: left;
+ margin-top: 10px;
+}
+input, textarea { margin-top: 10px; }
+input::placeholder{color: #ea0000; font-family: arial; font-size: 12px;}
+textarea::placeholder{color: #ea0000; font-family: arial; font-size: 12px;}
+#mySubmit { margin-left: 25%;}
+input[type="submit"], [type="reset"] {background-color: green; color: white;}
+</style>
+<title>Contact Form</title>
+<meta charset="utf-8">
+</head>
+<body>
+<h1>Contact Us:</h1>
+<form>
+<label>First Name:</label><input type="text" name="fname" id="fname" placeholder="Enter yourname here"><br>
+<label>Last Name: </label><input type="text" name="lname" id="lname" placeholder="Enter yoursurname here"><br>
+<label>E-mail: </label><input type="email" name="email" id="email" placeholder="Enter your email here" required="required"> <br>
+<label for "comments"> Comments: </label>
+<textarea name="comments" id="comments" rows="4" cols="40" required="required" placeholder="Enter your comments here"></textarea><br>
+<div id="mySubmit">
+<input type="submit" value="Contact">
+<input type="reset">
+</div>
+</form>
+
+<button onclick="goBack()">Go Back</button>
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+/*Wrappers for the Body*/
+#header {background-color: #C7E6D2;
+	padding: 15px;
+	text-align: center;}
+#nav {background-color: #C7E6D2;
+	height: 60px;
+	padding: 15px;
+	text-align: center;}
+#content {background-color: #C7E6D2;
+	padding: 15px;}
+#footer {background-color: #C7E6D2;
+	height: 50px;
+	padding: 15px;}
+#wrapper {margin: 0 auto;
+	width: 80%;}
+
+/*Body background, image and font*/
+body {background-color: #33704A;
+	background-image: url(twocolor_left.png), url(twocolor_right.png);
+	background-position: top left, right top;
+	background-repeat: repeat-y, repeat-y;
+	font-family: arial;}
+
+/*Links inside of Navigation Div*/
+#nav a { padding: 10px;
+	border: 2px solid #c6e1e0;
+	display: inline-block;
+	width: 100px;
+	font-weight: bold;
+	font-size: 1em;
+	background-color: #469B63;
+	color: white;
+	text-decoration: none;
+	text-align: center;}
+ #nav a:hover { background-color: #ffffff; 
+	opacity: 0.7;
+	color: black}
+#nav { list-style-type: none;
+	}
+#nav li { display: inline;
+	padding-right: 15px;
+	}
+
+/*Links inside of Content Div*/
+#content a {display: inline-block;
+	text-decoration: none;}
+#content a:link {color: green;}
+#content a:visited {color: red;}
+#content a:hover {color: green;
+	text-decoration: underline;}
+#content a:active {color: blue;}
+
+/*Form on Contact Me*/
+#content h1 {color: #33704A;
+	text-align: center;}
+form {background-color:#469B63;
+	color: #FFFFFF;
+	width: 60%;
+	border-radius: 5px;
+	padding: 10px;}
+label {float:left;
+	width: 25%;
+	clear: left;
+	text-align: left;
+	margin-top: 10px;}
+input, textarea {margin-top: 10px;}
+input::placeholder{color: #469B63; font-size: 12px;}
+textarea::placeholder{color: #469B63; font-size: 12px;}
+#mySubmit {margin-left: 25%;}
+input[type="submit"], [type="reset"] {background-color: #FFFFFF; 
+	color: #33704A;
+	border-radius: 8px;}
